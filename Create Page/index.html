@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="master.css">
+    <title>Create</title>
+  </head>
+  <body>
+    <div class="menu">
+        <ul>
+          <li class="home"><a href="#" data-text="Home">Home</a></li>
+          <li><a href="" data-text="Create">Create</a></li>
+          <li><a href="" data-text="AllPosts">All-Posts</a></li>
+          <li><a href="" data-text="Interest">Interset</a></li>
+          <li><a href="" data-text="Login/SignUp">Login/Sign-Up</a></li>
+          <li><a href="" data-text="END">END</a></li>
+        </ul>
+    </div>
+
+      <div class="navbar">
+        <h2 class="logo invisible">Blogger</h2>
+        <svg class="navicon" width="54" height="27" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="cross1" fill-rule="evenodd" clip-rule="evenodd" d="M54 4H0V0H54V4Z" fill=" white"/>
+        <path class="cross2" fill-rule="evenodd" clip-rule="evenodd" d="M54 26H0V22H54V26Z" fill=" white"/>
+        <path class="cross3" fill-rule="evenodd" clip-rule="evenodd" d="M54 49H0V45H54V49Z" fill=" white"/>
+        </svg>
+      </div>
+
+      <div class="main" method="post">
+        <div class="te-header">
+          <button type="button" class='btn' name="button" data-element="bold">
+            <img src="Icons/bold.png" alt="">
+            <i class='fa fa-bold'></i>
+          </button>
+          <button type="button" class='btn' name="button" data-element="italic">
+            <i class='fa fa-italic'></i>
+            <img src="Icons/italics.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="underline">
+            <i class='fa fa-underline'></i>
+            <img src="Icons/underline.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="insertUnorderedList">
+            <i class='fa fa-list-ul'></i>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+          </button>
+
+          <button type="button" class='btn' name="button" data-element="createLink">
+            <i class='fa fa-link'></i>
+            <img src="Icons/link.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="justifyLeft">
+            <i class='fa fa-left'></i>
+            <img src="Icons/left.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="JustifyCenter">
+            <i class='fa fa-center'></i>
+            <img src="Icons/center.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="JustifyRight">
+            <i class='fa fa-right'></i>
+            <img src="Icons/right.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="JustifyFull">
+            <i class='fa fa-justify'></i>
+            <img src="Icons/justify.png" alt="">
+          </button>
+          <button type="button" class='btn' name="button" data-element="insertImage">
+            <i class='fa fa-image'></i>
+            <img src="Icons/image.png" alt="">
+          </button>
+          <button type="button" class='savebtn' name="button" >
+            SAVE
+
+          </button>
+
+        </div>
+        <form class="" action="index.html" method="post">
+          <textarea class="save" name="content" rows="8" cols="128"></textarea>
+
+          <div class="content" contenteditable="true">
+
+          </div>
+          <div class="in">
+            <input class="sub" type="submit" name="turnin" value="Turn In">
+
+
+
+          </div>
+        </form>
+
+
+
+
+      </div>
+      <div class="images">
+
+        <form class="" action="index.html" method="post">
+
+         <label for=""><strong>Cover Picture <span><i>(Mandatory)</i></span></strong></label><br><br>
+         <input type="file" name="fileupload" value="fileupload" id="fileupload"><br><br>
+         <label for=""><strong>Other Pictures</strong></label><br><br>
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+         <input type="file" name="fileupload" value="fileupload" id="fileupload">
+
+      </form>
+
+      </div>
+
+
+
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
